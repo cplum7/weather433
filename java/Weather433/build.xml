@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="createJar" name="create jar for classes and data files" basedir=".">
+	<target name="createJar">
+		<jar destfile="./weather433.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="w433.Weather433"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="bin"/>
+        </jar>
+	</target>
+</project>

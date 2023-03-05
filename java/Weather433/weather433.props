@@ -1,0 +1,17 @@
+# auto start jar file after reboot
+# system preferences>users&groups>login items
+#
+#properties file
+# sample values greater than this value indicate a high signal
+hSample = 15000
+signalSampler = /opt/local/bin/rtl_fm
+#channel number set on sensor 1, 2 or 3
+channelNum = 2
+debug=false
+# write to DB
+writetoDB=true
+#
+httpStrRemote=http://myDB/
+#smartPlugAddr=http://smartPlugURL
+controlSprinkler=false
+#

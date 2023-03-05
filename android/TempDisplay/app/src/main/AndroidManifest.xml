@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="w433.tempDisplay">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="whateverString"
+        android:label="Weather Overground"
+        android:icon="@mipmap/ic_launcher"
+        android:fullBackupContent="false"
+        android:usesCleartextTraffic="true"
+        android:screenOrientation="portrait">
+        <activity
+            android:name="w433.tempDisplay.TempActivity"
+            android:screenOrientation="portrait"
+            android:label="Weather Overground">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="w433.tempDisplay.SettingsFragment"
+            android:label="@string/settings"
+            android:theme="@style/Theme.AppCompat.Light" >
+       </activity>
+    </application>
+</manifest>

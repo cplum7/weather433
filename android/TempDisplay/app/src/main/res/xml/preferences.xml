@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="">
+    <EditTextPreference
+        android:key="urlAddr"
+        android:title="@string/editTextTitle"
+        app:useSimpleSummaryProvider="true"
+        android:dialogTitle="@string/dialogTitle"/>
+    <SwitchPreferenceCompat
+        android:key="displayCentigrade"
+        android:title="@string/displayC"
+        android:summary=""/>
+    </PreferenceCategory>
+</PreferenceScreen>

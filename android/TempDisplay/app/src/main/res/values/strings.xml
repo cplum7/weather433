@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Weather Overground</string>
+    <string name="outSide_Temperature">Current OutSide Temperature</string>
+    <string name="Date">Date</string>
+    <string name="tempSignF">°F</string>
+    <string name="tempSignC">°C</string>
+    <string name="displayC">Display centigrade</string>
+    <string name="version">Version 3.3.5</string>
+    <string name="settings">Settings</string>
+    <string name="dialogTitle">URL Address  Example: http://myhost.com</string>
+    <string name="editTextTitle">Enter URL address to access temperature database</string>
+</resources>
